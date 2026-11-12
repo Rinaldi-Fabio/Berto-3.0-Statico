@@ -337,6 +337,10 @@ html.is-scrolled .home .site-header .wp-block-navigation-item__content,.home .si
 .bertine-ritratti>*,.carta-foto>*{margin:0}
 .family-layout .bertine-ritratti img{aspect-ratio:3/4;object-fit:cover;object-position:50% 35%}
 .bertine-ritratti .bertine-didascalia{grid-column:1/-1;margin-top:0;font-size:14px;line-height:1.5;color:var(--wp--preset--color--crema-tenue)}
+/* Ognuna sta a destra del centro nella foto originale (60-65%): ritaglio centrato sulla persona (Marina inclinata: tra viso e busto). */
+.family-layout .bertine-ritratti img[src*="marina"]{object-position:63% 35%}
+.family-layout .bertine-ritratti img[src*="serena"]{object-position:76% 35%}
+.family-layout .bertine-ritratti img[src*="chiara"]{object-position:80% 35%}
 .carta-foto{grid-template-columns:repeat(2,minmax(0,1fr));gap:24px;margin-bottom:40px}
 .carta-foto img{width:100%;aspect-ratio:16/9;object-fit:cover}
 .photo-wide img{width:100%;aspect-ratio:21/9;object-fit:cover;object-position:50% 45%}
